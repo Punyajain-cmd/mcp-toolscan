@@ -1,0 +1,26 @@
+[
+ {
+  "case": "Kubeshark CVE-2026-129236 / GHSA-8vf2-hxg5-crqh",
+  "rule": "ARG_INJECTION",
+  "vulnerable_detected": true,
+  "fixed_findings": []
+ },
+ {
+  "case": "AWS Document Loader MCP CVE-2026-130901",
+  "rule": "SANDBOX_ENV_BYPASS",
+  "vulnerable_detected": true,
+  "fixed_findings": []
+ },
+ {
+  "case": "AWS Timestream for InfluxDB MCP GHSA-2f9r-g4f3-wc2j",
+  "rule": "CREDENTIAL_URL_MIX",
+  "vulnerable_detected": true,
+  "fixed_findings": []
+ },
+ {
+  "case": "AWS Pricing MCP CVE-2026-126816",
+  "rule": "READONLY_MISLABEL",
+  "vulnerable_detected": true,
+  "fixed_findings": []
+ }
+]

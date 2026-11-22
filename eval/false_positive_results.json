@@ -1,0 +1,24 @@
+{
+ "servers": 8,
+ "tools": 69,
+ "flagged": 0,
+ "tools_with_non_length_findings": 2,
+ "details": [
+  [
+   "everything.json",
+   "get-annotated-message",
+   [
+    "COVERT_PARAM"
+   ],
+   false
+  ],
+  [
+   "everything.json",
+   "trigger-resource-update",
+   [
+    "READONLY_MISLABEL"
+   ],
+   false
+  ]
+ ]
+}

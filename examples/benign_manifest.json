@@ -1,0 +1,6 @@
+{"tools": [
+ {"name": "get_weather", "description": "Returns the current weather for a city.", "annotations": {"readOnlyHint": true},
+  "inputSchema": {"type": "object", "properties": {"city": {"type": "string"}}}},
+ {"name": "write_note", "description": "Writes a note to the notes folder.", "annotations": {"readOnlyHint": false},
+  "inputSchema": {"type": "object", "properties": {"title": {"type": "string"}, "body": {"type": "string"}}}}
+]}

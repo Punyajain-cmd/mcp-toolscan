@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-toolscan"
+version = "0.2.0"
+description = "Static scanner for poisoned or risky MCP tool definitions, risky MCP server code, and malicious .pth startup hooks"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Punya Malaiya Jain" }]
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["mcp", "model-context-protocol", "prompt-injection", "tool-poisoning", "llm-security", "ai-security", "static-analysis"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+  "Intended Audience :: Developers",
+]
+
+[project.urls]
+Homepage = "https://github.com/Punyajain-cmd/mcp-toolscan"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+mcp-toolscan = "mcp_toolscan.cli:main"
+
+[tool.setuptools]
+packages = ["mcp_toolscan"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
